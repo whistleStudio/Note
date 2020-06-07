@@ -1,3 +1,5 @@
+[toc]
+
 # Typora + Github + 腾讯云, 如何优雅地完成文档编辑与云同步?
 
 > 实现功能: 
@@ -9,7 +11,7 @@
 
 # 1 Typora
 
-<img src="G:\Whistle Studio\7.Note\essay\Typora + Github + 腾讯云, 如何优雅地完成文档编辑与云同步.assets\image-20200602211754999.png" alt="image-20200602211754999" style="zoom: 25%;" />
+<img src="https://whistlestudio-1300400818.cos.ap-nanjing.myqcloud.com/img/20200607231908.png" alt="image-20200602211754999" style="zoom: 25%;" />
 
 <a href="https://www.typora.io/">Typora官网下载</a>
 
@@ -88,11 +90,11 @@
 - `git commit -m "some description"`
 - `git push -u origin master`
 
-<img src="G:\Whistle Studio\7.Note\essay\Typora + Github + 腾讯云, 如何优雅地完成文档编辑与云同步.assets\image-20200602231247226.png" alt="image-20200602231247226" style="zoom:80%;" />
+<img src="https://whistlestudio-1300400818.cos.ap-nanjing.myqcloud.com/img/20200607231942.png" alt="image-20200602231247226" style="zoom:80%;" />
 
 本地上传成功, 远程仓库就有了刚刚上传的文件
 
-<img src="G:\Whistle Studio\7.Note\essay\Typora + Github + 腾讯云, 如何优雅地完成文档编辑与云同步.assets\image-20200603224919402.png" alt="image-20200603224919402" style="zoom: 67%;" />
+<img src="https://whistlestudio-1300400818.cos.ap-nanjing.myqcloud.com/img/20200607231947.png" alt="image-20200603224919402" style="zoom: 67%;" />
 
 ## 2.4 将远程文件同步到本地
 
@@ -145,7 +147,7 @@
 
 - 将对象地址复制到你需要使用的地方即可
 
-<img src="G:\Whistle Studio\7.Note\essay\Typora + Github + 腾讯云, 如何优雅地完成文档编辑与云同步.assets\image-20200604001224713.png" alt="image-20200604001224713" style="zoom:67%;" />
+<img src="https://whistlestudio-1300400818.cos.ap-nanjing.myqcloud.com/img/20200607232013.png" alt="image-20200604001224713" style="zoom:67%;" />
 
 ## 3.3 附: 计费标准
 
