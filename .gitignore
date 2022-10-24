@@ -1,4 +1,6 @@
-*.assets/
+**.assets
 *.jpg
 *.jpeg
 *.png
+*.html
+!test.html

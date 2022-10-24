@@ -136,6 +136,7 @@ git remote -v // 查看详细信息
 
 ```
 git push -u [shortName] [remoteBranchName]
+// git push -u origin master
 ```
 
 ### 4.4 删除关联
