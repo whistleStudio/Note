@@ -13,11 +13,11 @@ void main(List<String> args) {
   var defaultV;
   print(defaultV);
 
-  // 常量 const必须初始化且应当于编译阶段确定; final可以先声明再初始化，且值可以于运行阶段确定
+  // 常量 const必须初始化且应当于编译阶段确定;
+  // final必须声明或构造函数中初始化，值可以运行时确定
   const a = 1;
   print(a);
 
-  final b;
-  b = DateTime.now();
+  final b = DateTime.now();
   print(b);
 }
