@@ -10,7 +10,7 @@ class Person {
     if (instance == null) {
       instance = Person.init(name);
     } 
-    return instance!; // 类型断言，一定非空
+    return instance!; // ！类型断言，一定非空
   }
 }
 void main(List<String> args) {
