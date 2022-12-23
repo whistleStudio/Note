@@ -1,3 +1,8 @@
+/* 
+工厂函数同样用于创造实例，可以为默认构造函数也可以是命名构造函数，
+且必须有return
+ */
+
 class Person {
   String name;
   static Person? instance;
