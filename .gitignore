@@ -1,6 +1,2 @@
 **.assets
-*.jpg
-*.jpeg
-*.png
-*.html
-!test.html
+/*.html

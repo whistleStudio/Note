@@ -12,7 +12,6 @@ class Home extends StatelessWidget {
     );
   }
 }
-
 class TextDemo extends StatelessWidget {
   const TextDemo({super.key});
 
@@ -21,11 +20,11 @@ class TextDemo extends StatelessWidget {
     return Column(
       children: [
         Text(
-          "Hello Flutter xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "哈喽 Flutter xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
           textDirection: TextDirection.ltr,
           style: TextStyle(
             fontSize: 30,
-            color: Colors.amber,
+            color: Colors.amber[200],
             fontWeight: FontWeight.w500,
             fontStyle: FontStyle.italic,
             decoration: TextDecoration.lineThrough,
@@ -41,7 +40,7 @@ class TextDemo extends StatelessWidget {
             text: "sadsadasdas",
             style: TextStyle(
               fontSize: 40,
-              color: Colors.pink
+              color: Color.fromARGB(255, 223, 232, 22)
             ),
             children: [
               TextSpan(
