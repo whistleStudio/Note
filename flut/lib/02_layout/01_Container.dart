@@ -18,6 +18,7 @@ class ContainerDemo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Scaffold框架下，child为null时，宽高自动扩充至父元素大小;否则，为child大小
     return Container(
       child: Text(
         "Our Material 3 Design Kit and Material 3 Component libraries have been updated to reflect the new design tokens and their assigned roles. In Figma, Material Theme Builder generates these tokens as Figma",
