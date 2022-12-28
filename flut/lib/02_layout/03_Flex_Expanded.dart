@@ -7,7 +7,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Flex"),
+        title: Text("Flex弹性"),
         centerTitle: true,
         elevation: 0.0,
       ),

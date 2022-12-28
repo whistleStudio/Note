@@ -7,7 +7,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("column_row"),
+        title: Text("column_row线性(弹性)"),
         centerTitle: true,
       ),
       body: ColumnRowDemo()
