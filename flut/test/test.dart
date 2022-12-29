@@ -11,8 +11,7 @@ class Cat {
 
 typedef MyType = Map<Test, String>; 
 void main() {
-  MyType t = {Test.name: "xxx"};
-  print(t[Test.name]);
+  List.generate(2, (index) => null);
 
   // final Cat c = Cat(name: "ss");
   // Test t = {"name": "ssds"};

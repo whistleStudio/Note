@@ -22,20 +22,10 @@ class Test extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Column(
-          children: [],
-          // children: [
-          //   Expanded(
-          //     child: Container(
-          //       color: Colors.amber
-          //     )
-          //   ),
-          //   Expanded(
-          //     child: Container(
-          //       color: Colors.cyanAccent
-          //     )
-          //   )
-          // ],
+        SingleChildScrollView(
+          child: Column(
+            children: [],
+          ),
         ),
       ],
     );
