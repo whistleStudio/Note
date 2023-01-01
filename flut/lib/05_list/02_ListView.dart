@@ -85,7 +85,7 @@ class horizontalListView extends StatelessWidget {
       // 列表需要宽高约束
       child: ListView(
         scrollDirection: Axis.horizontal,
-        // Container自适应次轴方向最大值
+        // Container自适应交叉轴方向最大值
         children: _genColorContainers(_myColors),
         // itemExtent给子元素设置主轴方向大小，因为ListView的元素主轴方向都是无约束，所以不能设置为double.infinity
         itemExtent: size.width,
