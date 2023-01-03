@@ -21,7 +21,8 @@ import 'package:flutter/material.dart';
 // import '06_others/01_cupertino.dart';
 // import '07_third_party/01.dio.dart';
 // import '07_third_party/02_flutter_swiper.dart';
-import '07_third_party/03_shared_preference.dart';
+// import '07_third_party/03_shared_preference.dart';
+import '08_state/01_StatefulWidget.dart';
 
 void main(List<String> args) {
   runApp(MyApp());
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       // 在移动端任务管理器中的名字
       title: "flutter demo",
-      home: Home(),
+      home: Home(), 
       // theme: ThemeData(fontFamily: 'AliMama'),
       debugShowCheckedModeBanner: false,
     );

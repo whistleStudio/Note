@@ -17,6 +17,10 @@ class Person {
     } 
     return instance!; // ！类型断言，一定非空
   }
+
+  // factory gg () {
+  //   return instance!;
+  // }
 }
 void main(List<String> args) {
   // 单例模式
