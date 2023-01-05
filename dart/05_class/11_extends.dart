@@ -26,7 +26,7 @@ class Father extends GrandFather {
 
 class Son extends Father {
   // 初始化列表super重定向至父类构造函数
-  Son(String name) : super(name);
+  Son(String name) : super(name); //等价于 语法糖Son(super.name); 调用父级构造传name
   Son.rush(String name) : super.run(name);
   @override
   say () {
