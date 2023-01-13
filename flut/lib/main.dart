@@ -30,7 +30,8 @@ import 'package:flutter/material.dart';
 // import '09_navigation/01_anoymous.dart';
 // import '09_navigation/02_namedRouter.dart';
 // import '09_navigation/03_onGenerateRoute.dart';
-import '09_navigation/04_arguments.dart';
+// import '09_navigation/04_arguments.dart';
+import '09_navigation/05_drawer.dart';
 
 void main(List<String> args) {
   runApp(MyApp());
@@ -42,12 +43,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       // 在移动端任务管理器中的名字
       title: "flutter demo",
+      // ------------ 路由↓ ----------------
       // initialRoute: "product", // 被home配置覆盖
-      routes: namedRoutes,
+      // routes: namedRoutes,
       // onGenerateRoute: dynamicRoute, // 03_onGenerateRoute.dart中使用
-      onUnknownRoute: (settings) => MaterialPageRoute(
-        builder: (context) => UnknownPage()
-      ),
+      // onUnknownRoute: (settings) => MaterialPageRoute(
+      //   builder: (context) => UnknownPage()
+      // ),
+      // ----------------------------------
       home: Home(), 
       // theme: ThemeData(fontFamily: 'AliMama'),
       debugShowCheckedModeBanner: false,
@@ -55,10 +58,11 @@ class MyApp extends StatelessWidget {
   }
 }
 
-final namedRoutes = {
-  "home": (context) => Home(),
-  "product": (context) => Product()
-};
+// ------------ 路由↓ ----------------
+// final namedRoutes = {
+//   "home": (context) => Home(),
+//   "product": (context) => Product(productName: "命名商品")
+// };
 
 /* 03_onGenerateRoute.dart中使用 */
 // Route dynamicRoute (RouteSettings settings) {
@@ -71,3 +75,4 @@ final namedRoutes = {
 //   }
 //   return MaterialPageRoute(builder: (context) => UnknownPage());
 // }
+// ----------------------------------
