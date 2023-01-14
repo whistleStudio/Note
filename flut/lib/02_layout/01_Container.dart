@@ -40,8 +40,7 @@ class ContainerDemo extends StatelessWidget {
       // transform: Matrix4.rotationZ(0.1), // 弧度单位
       // transform: Matrix4.skewX(0.2),
       transform:
-        Matrix4.translationValues(-10.0, 0.0, 0.0)
-        ..rotateZ(0.2),
+        Matrix4.skewX(0.2)..translate(-10.0)..rotateZ(0.2),
       decoration: BoxDecoration(
         // border: Border(
         //   top: BorderSide(

@@ -5,29 +5,11 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Flutter Test"),
-        centerTitle: true,
+    return Container(
+      width: 100,
+      child: Center(
+        child: Column(),
       ),
-      body: Test()
-    );
-  }
-}
-
-class Test extends StatelessWidget {
-  const Test({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      children: [
-        SingleChildScrollView(
-          child: Column(
-            children: [],
-          ),
-        ),
-      ],
     );
   }
 }
