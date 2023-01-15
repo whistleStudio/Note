@@ -34,27 +34,28 @@ import 'flutterTest.dart';
 // import '09_navigation/05_drawer.dart';
 
 void main(List<String> args) {
-  runApp(MyApp());
+  runApp(Container());
 }
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      // 在移动端任务管理器中的名字
-      title: "flutter demo",
-      // ------------ 路由↓ ----------------
-      // initialRoute: "product", // 被home配置覆盖
-      // routes: namedRoutes,
-      // onGenerateRoute: dynamicRoute, // 03_onGenerateRoute.dart中使用
-      // onUnknownRoute: (settings) => MaterialPageRoute(
-      //   builder: (context) => UnknownPage()
-      // ),
-      // ----------------------------------
-      home: Home(), 
-      // theme: ThemeData(fontFamily: 'AliMama'),
-      debugShowCheckedModeBanner: false,
-    );
+    return Container();
+    // return MaterialApp(
+    //   // 在移动端任务管理器中的名字
+    //   title: "flutter demo",
+    //   // ------------ 路由↓ ----------------
+    //   // initialRoute: "product", // 被home配置覆盖
+    //   // routes: namedRoutes,
+    //   // onGenerateRoute: dynamicRoute, // 03_onGenerateRoute.dart中使用
+    //   // onUnknownRoute: (settings) => MaterialPageRoute(
+    //   //   builder: (context) => UnknownPage()
+    //   // ),
+    //   // ----------------------------------
+    //   home: Home(), 
+    //   // theme: ThemeData(fontFamily: 'AliMama'),
+    //   debugShowCheckedModeBanner: false,
+    // );
   }
 }
 

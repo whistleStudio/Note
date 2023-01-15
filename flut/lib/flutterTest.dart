@@ -6,10 +6,18 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 100,
-      child: Center(
-        child: Column(),
-      ),
+      // child: Column(
+      //   children: [Column(),Container(
+      //     width: 500,
+      //     color: Colors.amber,)],
+      // ),
+      // color: Colors.amber,
+      // child: Center(
+      //   child: Container(
+      //     color: Colors.greenAccent,
+      //   ),
+      // ),
+
     );
   }
 }

@@ -1,5 +1,7 @@
-Map? b = {'name':"xxx"};
+class father {
+  String name = "fff";
+}
 
-void main() {
-  print(b??const{}['name']);
+class Son extends father{
+  String get name => super.name;
 }
