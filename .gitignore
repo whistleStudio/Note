@@ -4,5 +4,3 @@
 *.png
 *.html
 !test.html
-**/node_modules
-**/dist
